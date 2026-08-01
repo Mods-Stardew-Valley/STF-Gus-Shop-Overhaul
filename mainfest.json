@@ -1,0 +1,13 @@
+{
+"Name": "Gus Shop Overhaul",
+"Author": "LoganDoidao",
+"Version": "0.0.0",
+"Description": "Multiple goods added to the Saloon.",
+"UniqueID": "LoganDoidao.GusShopOverhaul",
+"MinimumApiVersion": "4.1.0",
+//"UpdateKeys": [ "Nexus:XXXXX" ],
+"ContentPackFor": {
+"UniqueID": "Cherry.ShopTileFramework",
+"MinimumVersion": "1.0.5"
+  }
+}

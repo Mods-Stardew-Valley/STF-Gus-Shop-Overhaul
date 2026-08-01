@@ -1,0 +1,49 @@
+{
+"VanillaShops":[
+{
+"ShopName":"Saloon",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 2.0,
+
+"PriceMultiplierWhen": {
+"0.7": [ "f Gus 2000" ],
+"0.8": [ "f Gus 1000" ],
+"0.9": [ "f Gus 500" ]
+},
+
+
+"ItemStocks":[
+
+    //Sexta feira dos Favoritos - adiciona um prato favorito para cada npc com amizade maior que 1 coração ao menu somente na sexta feira somente uma unidade
+
+    //Pratos de Aniversario
+    { "ItemType": "Object", "StockPrice": "1500", "Stock": 2, "ItemIDs": [ 499 ], "RandomChance": 0.05 },
+
+    { "ItemType": "Object", "StockPrice": "350", "Stock": 40, "ItemNames": [ "Quality Fertilizer" ], "When": [ "SkillLevel farming 9" ] }
+
+    //Itens adicionados
+    //Hidromel
+    //Pale Ale
+    //Green Tea
+    //Triple Shoot Expresso
+    //Ginger Ale apos saber a receita ele vende
+
+    //Passas apos vender uma unidade (Tiragosto)
+    //Caviar apos vender uma unidade (Tiragosto)
+
+    //Queijo de qualidade baseado no nivel de amizade 
+    //2-normal sem limite "StockPrice": "500",
+    //4-prata "StockPrice": "600", "Stock": 10,
+    //6-ouro "StockPrice": "700", "Stock": 4,
+    //8-iridio "StockPrice": "1000", "Stock": 1,
+
+    //Queijo de cabra qualidade baseado no nivel de amizade 
+    //2-normal sem limite "StockPrice": "800",
+    //4-prata "StockPrice": "1000", "Stock": 10,
+    //6-ouro "StockPrice": "1200", "Stock": 4,
+    //8-iridio "StockPrice": "1500", "Stock": 1,
+
+    ]
+        }
+    ]
+}

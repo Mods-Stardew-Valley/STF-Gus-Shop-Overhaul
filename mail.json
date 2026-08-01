@@ -1,0 +1,81 @@
+[
+//Avisa dos descontos baseados nas amizades 
+{
+    "Id": "GusDiscount01",
+    "GroupId": "GusDiscounts",
+    "Text": "GusDiscount01",
+    "FriendshipConditions": [ { "NpcName": "Gus", "FriendshipLevel": 2 } ]
+},
+
+{
+    "Id": "GusDiscount02",
+    "GroupId": "GusDiscounts",
+    "Text": "GusDiscount02",
+    "FriendshipConditions": [ { "NpcName": "Gus", "FriendshipLevel": 4 } ]
+},
+
+{
+    "Id": "GusDiscount03",
+    "GroupId": "GusDiscounts",
+    "Text": "GusDiscount03",
+    "FriendshipConditions": [ { "NpcName": "Gus", "FriendshipLevel": 8 } ]
+},
+
+
+//manda cartas avisando da receita que está dispinivel para compra caso o jogador nao a tenha aprendido pela tv
+{
+    "Id": "GusTVRecipe01",
+    "GroupId": "GusRecipes",
+    "Text": "GusTVRecipe01",
+    "RecipeNotKnown": ["Wild Bait"]
+},
+
+{
+    "Id": "GusTVRecipe02",
+    "GroupId": "GusRecipes",
+    "Text": "GusTVRecipe02",
+    "RecipeNotKnown": ["Wild Bait"]
+},
+
+{
+    "Id": "GusTVRecipe03",
+    "GroupId": "GusRecipes",
+    "Text": "GusTVRecipe03",
+    "RecipeNotKnown": ["Wild Bait"]
+},
+
+{
+    "Id": "GusTVRecipe04",
+    "GroupId": "GusRecipes",
+    "Text": "GusTVRecipe04",
+    "RecipeNotKnown": ["Wild Bait"]
+},
+
+{
+    "Id": "GusTVRecipe05",
+    "GroupId": "GusRecipes",
+    "Text": "GusTVRecipe05",
+    "RecipeNotKnown": ["Wild Bait"]
+},
+
+{
+    "Id": "GusTVRecipe06",
+    "GroupId": "GusRecipes",
+    "Text": "GusTVRecipe06",
+    "RecipeNotKnown": ["Wild Bait"]
+},
+
+//Cartas de aniversarios, manda avisando que estara vendendo um prato especial para o aniversariante no dia
+
+{
+    "Id": "GusBirthdayNPC",
+    "GroupId": "GusBirthdays",
+    "Text": "GusBirthdayNPC"
+    //Repeteable true
+    //Chave por data 
+}
+
+
+//Cartas dos tiragostos avisando que estão disponiveis na loja agora passas e caviar alem dos queijos
+
+]
