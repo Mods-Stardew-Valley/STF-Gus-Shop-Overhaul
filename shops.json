@@ -1,7 +1,7 @@
 {
 "VanillaShops":[
 {
-"ShopName":"Saloon",
+"ShopName":"GusShop",
 "AddStockAboveVanilla":"False",
 "DefaultSellPriceMultiplier": 2.0,
 
@@ -14,34 +14,88 @@
 
 "ItemStocks":[
 
-    //Sexta feira dos Favoritos - adiciona um prato favorito para cada npc com amizade maior que 1 coração ao menu somente na sexta feira somente uma unidade
+    //Itens adicionados condicionados a venda ou receita
+    { "ItemType":"Object", "StockPrice": "350", "ItemNames":[ "Survival Burger" ] },
+    { "ItemType":"Object", "StockPrice": "500", "ItemNames":[ "Mead" ], "When":[ "s 459 1"] },
+    { "ItemType":"Object", "StockPrice": "500", "ItemNames":[ "Pale Ale" ], "When":[ "s 303 1"] },
+    { "ItemType":"Object", "StockPrice": "400", "ItemNames":[ "Ginger Ale" ], "Condition": "HasCookingRecipe Ginger-Ale" },
+    { "ItemType":"Object", "StockPrice": "300", "ItemNames":[ "Green Tea" ], "When":[ "s 614 1"] },
+    { "ItemType":"Object", "StockPrice": "750", "ItemNames":[ "Triple Shot Espresso" ], "When":[ "s 253 1"] },
+    { "ItemType":"Object", "StockPrice": "800", "ItemNames":[ "Raisins" ], "When":[ "s Raisins 1"] },
+    { "ItemType":"Object", "StockPrice":"1000", "ItemNames":[ "Caviar" ], "When":[ "s 445 1"] },
+    { "ItemType":"Object", "StockPrice": "500", "Stock": 15, "ItemNames":[ "Cheese" ], "When": [ "f Gus 500/s 424 1" ] },
+    { "ItemType":"Object", "StockPrice": "500", "Stock": 15, "ItemNames":[ "Goat Cheese" ], "When": [ "f Gus 500/s 426 1" ] },
+    { "ItemType":"Object", "StockPrice": "600", "Stock": 10, "ItemNames":[ "Cheese" ], "Quality": 2, "When": [ "f Gus 500/s 424 1" ] },
+    { "ItemType":"Object", "StockPrice": "600", "Stock": 10, "ItemNames":[ "Goat Cheese" ], "Quality": 2, "When": [ "f Gus 500/s 426 1" ] },
+    { "ItemType":"Object", "StockPrice": "700", "Stock": 4, "ItemNames":[ "Cheese" ], "Quality": 3, "When": [ "f Gus 500/s 424 1" ] },
+    { "ItemType":"Object", "StockPrice": "700", "Stock": 4, "ItemNames":[ "Goat Cheese" ], "Quality": 3, "When": [ "f Gus 500/s 426 1" ] },
+    { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Cheese" ], "Quality": 4, "When": [ "f Gus 500/s 424 1" ] },
+    { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Goat Cheese" ], "Quality": 4, "When": [ "f Gus 500/s 426 1" ] },
+    
+    //Sexta feira dos Favoritos os que vao para o saloon- exeto os que ja tem itens na loja normal
+        //Pam
+        //Willy
+        //Shane
+        //
+        //Lewis
+        //Elliott
+        //Robin
+        //Leah
+        //Penny
+        //Demetrius
+        //Sebastian
+        //Maru
+        // 
+         
 
-    //Pratos de Aniversario
-    { "ItemType": "Object", "StockPrice": "1500", "Stock": 2, "ItemIDs": [ 499 ], "RandomChance": 0.05 },
+    { "ItemType":"Object", "StockPrice": "500", "Stock": 1, "ItemNames":[ "Roasted Hazelnuts" ], "When": [ "d Fri/f Kent 750" ] },
+    { "ItemType":"Object", "StockPrice": "250", "Stock": 1, "ItemNames":[ "Escargot" ], "When": [ "d Fri/f Gus 750" ] },
+    { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Maple Bar" ], "When": [ "d Fri/f Sam 750" ] },
+    { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Farmer's Lunch" ], "When": [ "d Fri/f Marnie 750" ] },
+    { "ItemType":"Object", "StockPrice": "400", "Stock": 1, "ItemNames":[ "Artichoke Dip" ], "When": [ "d Fri/f Clint 750" ] },
+    
 
-    { "ItemType": "Object", "StockPrice": "350", "Stock": 40, "ItemNames": [ "Quality Fertilizer" ], "When": [ "SkillLevel farming 9" ] }
 
-    //Itens adicionados
-    //Hidromel
-    //Pale Ale
-    //Green Tea
-    //Triple Shoot Expresso
-    //Ginger Ale apos saber a receita ele vende
 
-    //Passas apos vender uma unidade (Tiragosto)
-    //Caviar apos vender uma unidade (Tiragosto)
 
-    //Queijo de qualidade baseado no nivel de amizade 
-    //2-normal sem limite "StockPrice": "500",
-    //4-prata "StockPrice": "600", "Stock": 10,
-    //6-ouro "StockPrice": "700", "Stock": 4,
-    //8-iridio "StockPrice": "1000", "Stock": 1,
+    //Pratos de Aniversario adicionados exeto para: (mas mandar carta avisando que tem coisas que eles gostam mesmo assim)
+        //Pam
+        //Willy
+        //Shane
+        //Lewis
+        //Demetrius
+        //Sebastian
+        //Maru
+        //Sam
+        //Jodi 
+        //Harvey
+        //
+        // 
 
-    //Queijo de cabra qualidade baseado no nivel de amizade 
-    //2-normal sem limite "StockPrice": "800",
-    //4-prata "StockPrice": "1000", "Stock": 10,
-    //6-ouro "StockPrice": "1200", "Stock": 4,
-    //8-iridio "StockPrice": "1500", "Stock": 1,
+    { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Cranberry Candy" ], "When": [ "!z spring/u 10" ] }, //Vincent
+    { "ItemType":"Object", "StockPrice": "800", "Stock": 1, "ItemNames":[ "Fruit Salad" ], "When": [ "!z spring/u 14" ] }, //Haley
+    { "ItemType":"Object", "StockPrice": "500", "Stock": 1, "ItemNames":[ "Blackberry Cobbler" ], "When": [ "!z fall/u 13" ] }, //Abigail
+    { "ItemType":"Object", "StockPrice": "700", "Stock": 1, "ItemNames":[ "Pumpkin Pie" ], "When": [ "!z fall/u 18" ] }, //Marnie
+    { "ItemType":"Object", "StockPrice": "400", "Stock": 1, "ItemNames":[ "Plum Pudding" ], "When": [ "!z summer/u 4" ] }, //Jas
+    { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Fish Taco" ], "When": [ "!z summer/u 8" ] }, //Gus
+    { "ItemType":"Object", "StockPrice": "450", "Stock": 1, "ItemNames":[ "Dish O' The Sea" ], "When": [ "!z winter/u 3" ] }, //Linus
+    { "ItemType":"Object", "StockPrice": "200", "Stock": 1, "ItemNames":[ "Roots Platter" ], "When": [ "!z fall/u 2" ] }, //Penny
+    { "ItemType":"Object", "StockPrice": "550", "Stock": 1, "ItemNames":[ "Crab Cakes" ], "When": [ "!z fall/u 5" ] }, //Elliott
+    { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Poppyseed Muffin" ], "When": [ "!z winter/u 23" ] }, //Leah
+    { "ItemType":"Object", "StockPrice": "700", "Stock": 1, "ItemNames":[ "Fiddlehead Risotto" ], "When": [ "!z winter/u 26" ] }, //Clint
+
+    
+
+
+    
+    { "ItemType":"Object", "StockPrice": "350", "Stock": 40, "ItemNames": [ "Quality Fertilizer" ], "When": [ "SkillLevel farming 9" ] }
+
+
+
+ 
+
+
+
 
     ]
         }
