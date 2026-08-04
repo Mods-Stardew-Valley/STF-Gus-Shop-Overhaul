@@ -32,20 +32,41 @@
     { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Cheese" ], "Quality": 4, "When": [ "f Gus 500/s 424 1" ] },
     { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Goat Cheese" ], "Quality": 4, "When": [ "f Gus 500/s 426 1" ] },
     
-    //Sexta feira dos Favoritos os que vao para o saloon- exeto os que ja tem itens na loja normal
-        //Pam
-        //Willy
-        //Shane
-        //
-        //Lewis
-        //Elliott
-        //Robin
-        //Leah
-        //Penny
-        //Demetrius
-        //Sebastian
-        //Maru
-        // 
+    //Sexta feira dos Favoritos    
+    
+    //Abigail
+    //Alex
+    //Caroline
+    //Clint
+    //Demetrius
+    //Dwarf
+    //Elliott
+    //Emily
+    //Evelyn
+    //George
+    //Gus
+    //Haley
+    //Harvey
+    //Jas
+    //Jodi 
+    //Kent
+    //Krobus
+    //Leah
+    //Lewis
+    //Linus
+    //Marnie
+    //Maru
+    //Pam
+    //Penny
+    //Pierre
+    //Robin
+    //Sam
+    //Sandy
+    //Sebastian
+    //Shane
+    //Vincent
+    //Willy
+    //Wizard
          
 
     { "ItemType":"Object", "StockPrice": "500", "Stock": 1, "ItemNames":[ "Roasted Hazelnuts" ], "When": [ "d Fri/f Kent 750" ] },
@@ -58,19 +79,47 @@
 
 
 
-    //Pratos de Aniversario adicionados exeto para: (mas mandar carta avisando que tem coisas que eles gostam mesmo assim)
-        //Pam
-        //Willy
-        //Shane
-        //Lewis
-        //Demetrius
-        //Sebastian
-        //Maru
-        //Sam
-        //Jodi 
-        //Harvey
-        //
-        // 
+    //Pratos de Aniversario adicionados:
+    
+    //Abigail
+    //Alex
+    //Caroline
+    //Clint
+    //Demetrius
+    //Dwarf
+    //Elliott
+    //Emily
+    //Evelyn
+    //George
+    //Gus
+    //Haley
+    //Harvey
+    //Jas
+    //Jodi 
+    //Kent
+    //Krobus
+    //Leah
+    //Lewis
+    //Linus
+    //Marnie
+    //Maru
+    //Pam
+    //Penny
+    //Pierre
+    //Robin
+    //Sam
+    //Sandy
+    //Sebastian
+    //Shane
+    //Vincent
+    //Willy
+    //Wizard
+
+        
+        
+    
+    
+    
 
     { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Cranberry Candy" ], "When": [ "!z spring/u 10" ] }, //Vincent
     { "ItemType":"Object", "StockPrice": "800", "Stock": 1, "ItemNames":[ "Fruit Salad" ], "When": [ "!z spring/u 14" ] }, //Haley
