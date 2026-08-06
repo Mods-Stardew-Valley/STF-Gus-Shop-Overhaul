@@ -35,30 +35,20 @@
     //Sexta feira dos Favoritos    
     
     //Caroline nao tem favorito de sexta
-    //Dwarf nao tem pratio favoritu
+    //Dwarf nao tem prato favorito
     //Emily nao tem muito prato amado
     //George sem opções para a sexta
     //Harvey poucas opçoes
     //Jas poucas opções
-   
-    //Kent
-    //Krobus
-    //Leah
-    //Lewis
-    //Linus
-    //Marnie
-    //Maru
-    //Pam
-    //Penny
-    //Pierre
-    //Robin
-    //Sam
-    //Sandy
-    //Sebastian
-    //Shane
-    //Vincent
-    //Willy
-    //Wizard
+    //Krobus nao gosta de comida
+    //Pierre sem opção para a sexta
+    //Robin sem opções
+    //Sam sem opcoes
+    //Sandy sem opções
+    //Shane ja tem pizza no menu
+    //Vincent sem opções
+    //Willy sem pratos 
+    //Wizard sem opcoes
     
     { "ItemType":"Object", "StockPrice": "350", "Stock": 1, "ItemNames":[ "Spicy Eel" ], "When": [ "d Fri/f Abigail 750" ] },
     { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Salmon Dinner" ], "When": [ "d Fri/f Alex 750" ] },
@@ -66,39 +56,27 @@
     { "ItemType":"Object", "StockPrice": "200", "Stock": 1, "ItemNames":[ "Bean Hotpot" ], "When": [ "d Fri/f Demetrius 750" ] },
     { "ItemType":"Object", "StockPrice": "500", "Stock": 1, "ItemNames":[ "Tom Kha Soup" ], "When": [ "d Fri/f Elliott 750" ] },
     { "ItemType":"Object", "StockPrice": "330", "Stock": 1, "ItemNames":[ "Stuffing" ], "When": [ "d Fri/f Evelyn 750" ] },
+    { "ItemType":"Object", "StockPrice": "250", "Stock": 1, "ItemNames":[ "Escargot" ], "When": [ "d Fri/f Gus 750" ] },
     { "ItemType":"Object", "StockPrice": "900", "Stock": 1, "ItemNames":[ "Fruit Salad" ], "When": [ "d Fri/f Haley 750" ] },
     { "ItemType":"Object", "StockPrice": "160", "Stock": 1, "ItemNames":[ "Pancakes" ], "When": [ "d Fri/f Jodi 750" ] },
-
-    { "ItemType":"Object", "StockPrice": "350", "Stock": 1, "ItemNames":[ "Spicy" ], "When": [ "d Fri/f SHANCE 750" ] },
-    { "ItemType":"Object", "StockPrice": "350", "Stock": 1, "ItemNames":[ "Spicy" ], "When": [ "d Fri/f SHANCE 750" ] },
-    { "ItemType":"Object", "StockPrice": "500", "Stock": 1, "ItemNames":[ "Roasted Hazelnuts" ], "When": [ "d Fri/f Kent 750" ] },
-    { "ItemType":"Object", "StockPrice": "250", "Stock": 1, "ItemNames":[ "Escargot" ], "When": [ "d Fri/f Gus 750" ] },
-    { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Maple Bar" ], "When": [ "d Fri/f Sam 750" ] },
+    { "ItemType":"Object", "StockPrice": "540", "Stock": 1, "ItemNames":[ "Roasted Hazelnuts" ], "When": [ "d Fri/f Kent 750" ] },
+    { "ItemType":"Object", "StockPrice": "240", "Stock": 1, "ItemNames":[ "Vegetable Medley" ], "When": [ "d Fri/f Leah 750" ] },
+    { "ItemType":"Object", "StockPrice": "400", "Stock": 1, "ItemNames":[ "Glazed Yams " ], "When": [ "d Fri/f Lewis 750" ] },
+    { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Blueberry Tart" ], "When": [ "d Fri/f Linus 750" ] },
     { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Farmer's Lunch" ], "When": [ "d Fri/f Marnie 750" ] },
-    
-   
-    //Pratos de Aniversario adicionados:
+    { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Cheese Cauliflower" ], "When": [ "d Fri/f Maru 750" ] },
+    { "ItemType":"Object", "StockPrice": "240", "Stock": 1, "ItemNames":[ "Parsnip Soup" ], "When": [ "d Fri/f Pam 750" ] },
+    { "ItemType":"Object", "StockPrice": "200", "Stock": 1, "ItemNames":[ "Roots Platter" ], "When": [ "d Fri/f Penny 750" ] },
+    { "ItemType":"Object", "StockPrice": "150", "Stock": 1, "ItemNames":[ "Sashimi" ], "When": [ "d Fri/f Sebastian 750" ] },
+      
+   //Pratos de Aniversario adicionados:
  
     //Dwarf nao tem prato favorito esta fora do mod
-
-    //Kent
-    //Krobus
-    //Leah
-    //Lewis
-    //Linus
-    //Marnie
-    //Maru
-    //Pam
-    //Penny
-    //Pierre
-    //Robin
-    //Sam
-    //Sandy
-    //Sebastian
-    //Shane
-    //Vincent
-    //Willy
-    //Wizard
+    //Krobus nao gosta de comida
+    //Robin sem pratos 
+    //Sandy sem opções
+    //Willy sem pratos 
+    //Wizard sem opcoes
 
     { "ItemType":"Object", "StockPrice": "700", "Stock": 1, "ItemNames":[ "Complete Breakfast" ], "When": [ "!z summer/u 13" ] }, //Alex
     { "ItemType":"Object", "StockPrice": "520", "Stock": 1, "ItemNames":[ "Blackberry Cobbler" ], "When": [ "!z fall/u 13" ] }, //Abigail
@@ -109,35 +87,26 @@
     { "ItemType":"Object", "StockPrice": "350", "Stock": 1, "ItemNames":[ "Survival Burger" ], "When": [ "!z spring/u 27" ] },//Emily
     { "ItemType":"Object", "StockPrice": "400", "Stock": 1, "ItemNames":[ "Chocolate Cake" ], "When": [ "!z winter/u 20" ] }, //Evelyn
     { "ItemType":"Object", "StockPrice": "400", "Stock": 1, "ItemNames":[ "Fried Mushroom" ], "When": [ "!z fall/u 24" ] }, //George
+    { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Fish Taco" ], "When": [ "!z summer/u 8" ] }, //Gus
     { "ItemType":"Object", "StockPrice": "960", "Stock": 1, "ItemNames":[ "Pink Cake" ], "When": [ "!z spring/u 14" ] }, //Haley
     { "ItemType":"Object", "StockPrice": "440", "Stock": 1, "ItemNames":[ "Super Meal" ], "When": [ "!z winter/u 14" ] }, //Harvey
     { "ItemType":"Object", "StockPrice": "520", "Stock": 1, "ItemNames":[ "Plum Pudding" ], "When": [ "!z summer/u 4" ] }, //Jas
     { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Crispy Bass" ], "When": [ "!z fall/u 11" ] }, //Jodi
+    { "ItemType":"Object", "StockPrice": "700", "Stock": 1, "ItemNames":[ "Fiddlehead Risotto" ], "When": [ "!z spring/u 4" ] }, //Kent
+    { "ItemType":"Object", "StockPrice": "670", "Stock": 1, "ItemNames":[ "Stir Fry" ], "When": [ "!z winter/u 23" ] }, //Leah
+    { "ItemType":"Object", "StockPrice": "700", "Stock": 1, "ItemNames":[ "Autumn's Bounty" ], "When": [ "!z spring/u 7" ] }, //Lewis
+    { "ItemType":"Object", "StockPrice": "440", "Stock": 1, "ItemNames":[ "Dish O' The Sea" ], "When": [ "!z winter/u 3" ] }, //Linus
+    { "ItemType":"Object", "StockPrice": "770", "Stock": 1, "ItemNames":[ "Pumpkin Pie" ], "When": [ "!z fall/u 18" ] }, //Marnie
+    { "ItemType":"Object", "StockPrice":" 800", "Stock": 1, "ItemNames":[ "Rhubarb Pie" ], "When": [ "!z summer/u 10" ] }, //Maru
+    { "ItemType":"Object", "StockPrice": "400", "Stock": 1, "ItemNames":[ "Glazed Yams" ], "When": [ "!z spring/u 18" ] }, //Pam
+    { "ItemType":"Object", "StockPrice": "800", "Stock": 1, "ItemNames":[ "Red Plate" ], "When": [ "!z fall/u 2" ] }, //Penny
+    { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Fried Calamari" ], "When": [ "!z spring/u 18" ] }, //Pierre
+    { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Maple Bar" ], "When": [ "!z summer/u 17" ] }, //Sam
+    { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Pumpkin Soup" ], "When": [ "!z winter/u 10" ] }, //Sebastian
+    { "ItemType":"Object", "StockPrice": "400", "Stock": 1, "ItemNames":[ "Pepper Poppers" ], "When": [ "!z spring/u 20" ] }, //Shane
+    { "ItemType":"Object", "StockPrice": "350", "Stock": 1, "ItemNames":[ "Cranberry Candy" ], "When": [ "!z spring/u 10" ] } //Vincent
 
-    { "ItemType":"Object", "StockPrice": "300", "Stock": 1, "ItemNames":[ "Cranberry Candy" ], "When": [ "!z spring/u 10" ] }, //Vincent
-
-
-    
-    { "ItemType":"Object", "StockPrice": "700", "Stock": 1, "ItemNames":[ "Pumpkin Pie" ], "When": [ "!z fall/u 18" ] }, //Marnie
-
-    
-
-    { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Fish Taco" ], "When": [ "!z summer/u 8" ] }, //Gus
-
-    { "ItemType":"Object", "StockPrice": "450", "Stock": 1, "ItemNames":[ "Dish O' The Sea" ], "When": [ "!z winter/u 3" ] }, //Linus
-
-    { "ItemType":"Object", "StockPrice": "200", "Stock": 1, "ItemNames":[ "Roots Platter" ], "When": [ "!z fall/u 2" ] }, //Penny
-
-    
-
-    { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Poppyseed Muffin" ], "When": [ "!z winter/u 23" ] } //Leah
-    
- 
-
-
-
-
-    ]
+             ]
         }
     ]
 }
