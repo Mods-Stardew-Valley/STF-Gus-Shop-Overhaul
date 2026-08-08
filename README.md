@@ -1,14 +1,19 @@
 A complete overhaul of Gus's saloon, new dishes, drinks and recipes available, varied and more useful stock now, come in, take your seat and place your order, missed a recipe from TV? Our favorite bartender can sell it to you, rest assured we are ready to serve you!
 A friendship worth having! Get discounts on all added products up to 30% off, now it's worth showering Gus with gifts!
 
-[b][size=4]✨ Features[/size][/b] 
+[b][size=4]✨Features[/size][/b] 
 
 ✔ Discounts on new items based on your friendship level with Gus
-✔ Warning letter for each new discount level
 ✔ New NPC favorite dishes every Friday
-✔ Occasional letters announcing the added items
 ✔ Special dishes added to the menu on the birthdays of each Pelican Town resident
-✔ Letters announcing the birthday celebrants and their favorite dish
+
+
+[b][size=4]📝Future Updates[/size][/b] 
+
+📑 Warning letter for each new discount level
+📑 Occasional letters announcing the added items
+📑 Letters announcing the birthday celebrants and their favorite dish
+📑 Adding lost recipes for purchase
 
 ──────────────────────
 
