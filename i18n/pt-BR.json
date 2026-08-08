@@ -1,5 +1,26 @@
 //Brasilian Translation 
 //pt-BR.json
+
+"Birtday": "O
 {
-"Birtday": "Olá fazendeiro, amanhã tem aniversariante no vale, vou vender o prato favorito dele, uma ótima opção de presente! Se quiser de uma passada do Saloon tem muita coisa boa por lá"
-} 
+    "GusDiscount01": "CHANGE",
+
+    "GusDiscount02": "CHANGE",
+
+    "GusDiscount03": "CHANGE",
+
+    "GusTVRecipe01": "CHANGE",
+
+    "GusTVRecipe02": "CHANGE",
+
+    "GusTVRecipe03": "CHANGE",
+
+    "GusTVRecipe04": "CHANGE",
+
+    "GusTVRecipe05": "CHANGE",
+
+    "GusTVRecipe06": "CHANGE",
+
+    "GusBirthday": "Olá fazendeiro, amanhã tem aniversariante no vale, vou vender o prato favorito dele, uma ótima opção de presente! Se quiser de uma passada do Saloon tem muita coisa boa por lá"
+
+}
