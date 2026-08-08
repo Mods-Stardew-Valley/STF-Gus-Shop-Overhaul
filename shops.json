@@ -3,7 +3,7 @@
 {
 "ShopName":"GusShop",
 "AddStockAboveVanilla":"False",
-"DefaultSellPriceMultiplier": 2.0,
+"DefaultSellPriceMultiplier": 1.0,
 
 "PriceMultiplierWhen": {
 "0.7": [ "f Gus 2000" ],
@@ -15,7 +15,7 @@
 "ItemStocks":[
 
     //Itens adicionados condicionados a venda ou receita
-    
+
     { "ItemType":"Object", "StockPrice": "500", "ItemNames":[ "Mead" ], "When":[ "s 459 1"] },
     { "ItemType":"Object", "StockPrice": "500", "ItemNames":[ "Pale Ale" ], "When":[ "s 303 1"] },
     { "ItemType":"Object", "StockPrice": "400", "ItemNames":[ "Ginger Ale" ], "Condition": "HasCookingRecipe Ginger-Ale" },
@@ -32,23 +32,7 @@
     { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Cheese" ], "Quality": 4, "When": [ "f Gus 500/s 424 1" ] },
     { "ItemType":"Object", "StockPrice":"1000", "Stock": 1, "ItemNames":[ "Goat Cheese" ], "Quality": 4, "When": [ "f Gus 500/s 426 1" ] },
     
-    //Sexta feira dos Favoritos    
-    
-    //Caroline nao tem favorito de sexta
-    //Dwarf nao tem prato favorito
-    //Emily nao tem muito prato amado
-    //George sem opções para a sexta
-    //Harvey poucas opçoes
-    //Jas poucas opções
-    //Krobus nao gosta de comida
-    //Pierre sem opção para a sexta
-    //Robin sem opções
-    //Sam sem opcoes
-    //Sandy sem opções
-    //Shane ja tem pizza no menu
-    //Vincent sem opções
-    //Willy sem pratos 
-    //Wizard sem opcoes
+    //Sexta feira dos Favoritos     
     
     { "ItemType":"Object", "StockPrice": "350", "Stock": 1, "ItemNames":[ "Spicy Eel" ], "When": [ "d Fri/f Abigail 750" ] },
     { "ItemType":"Object", "StockPrice": "600", "Stock": 1, "ItemNames":[ "Salmon Dinner" ], "When": [ "d Fri/f Alex 750" ] },
@@ -69,14 +53,7 @@
     { "ItemType":"Object", "StockPrice": "200", "Stock": 1, "ItemNames":[ "Roots Platter" ], "When": [ "d Fri/f Penny 750" ] },
     { "ItemType":"Object", "StockPrice": "150", "Stock": 1, "ItemNames":[ "Sashimi" ], "When": [ "d Fri/f Sebastian 750" ] },
       
-   //Pratos de Aniversario adicionados:
- 
-    //Dwarf nao tem prato favorito esta fora do mod
-    //Krobus nao gosta de comida
-    //Robin sem pratos 
-    //Sandy sem opções
-    //Willy sem pratos 
-    //Wizard sem opcoes
+   //Pratos de Aniversario adicionados
 
     { "ItemType":"Object", "StockPrice": "700", "Stock": 1, "ItemNames":[ "Complete Breakfast" ], "When": [ "!z summer/u 13" ] }, //Alex
     { "ItemType":"Object", "StockPrice": "520", "Stock": 1, "ItemNames":[ "Blackberry Cobbler" ], "When": [ "!z fall/u 13" ] }, //Abigail
