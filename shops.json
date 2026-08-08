@@ -18,7 +18,7 @@
 
     { "ItemType":"Object", "StockPrice": "500", "ItemNames":[ "Mead" ], "When":[ "s 459 1"] },
     { "ItemType":"Object", "StockPrice": "500", "ItemNames":[ "Pale Ale" ], "When":[ "s 303 1"] },
-    { "ItemType":"Object", "StockPrice": "400", "ItemNames":[ "Ginger Ale" ], "Condition": "HasCookingRecipe Ginger-Ale" },
+    { "ItemType":"Object", "StockPrice": "400", "ItemNames":[ "Ginger Ale" ], "When": [ "k Ginger-Ale" ] },
     { "ItemType":"Object", "StockPrice": "300", "ItemNames":[ "Green Tea" ], "When":[ "s 614 1"] },
     { "ItemType":"Object", "StockPrice": "750", "ItemNames":[ "Triple Shot Espresso" ], "When":[ "s 253 1"] },
     { "ItemType":"Object", "StockPrice": "800", "ItemNames":[ "Raisins" ], "When":[ "s Raisins 1"] },
